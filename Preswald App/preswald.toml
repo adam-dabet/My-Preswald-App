@@ -1,0 +1,18 @@
+[project]
+title = "Cybersecurity Dashboard"
+version = "0.1.0"
+port = 8502
+entrypoint = "hello.py"
+
+[branding]
+name = "Cybersecurity Threats Dashboard"
+favicon = "/images/shield.ico"
+logo = "/images/security.png"
+primary_color = "#1f77b4"  # Professional blue color
+
+[data.Global_Cybersecurity_Threats_2015]
+type = "csv"
+path = "data/Global_Cybersecurity_Threats_2015.csv"
+
+[logging]
+level = "INFO"
